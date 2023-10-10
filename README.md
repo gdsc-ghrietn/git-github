@@ -29,6 +29,13 @@ Event page (register here): https://gdsc.community.dev/events/details/developer-
 
 ---
 ## Basic terminal commands
+1. `pwd` (Print Working Directory): Displays the current directory path.
+
+   Example:
+   ```bash
+   $ pwd
+   /home/user/documents
+    ```
 ## What is version control system?
 ## Creating & cloning a repository
 ## Making changes
