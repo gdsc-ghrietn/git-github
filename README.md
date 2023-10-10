@@ -8,8 +8,8 @@ Speaker: [@sahilyeole](https://github.com/sahilyeole)
 - [What is version control system?](https://github.com/gdsc-ghrietn/git-github#what-is-version-control-system)
 - [Creating & cloning a repository](https://github.com/gdsc-ghrietn/git-github#creating--cloning-a-repository)
 - [Making changes](https://github.com/gdsc-ghrietn/git-github#making-changes)
-- [Git branches and merging](https://github.com/gdsc-ghrietn/git-github#git-branches-and-merging)
 - [Pushing changes to github ](https://github.com/gdsc-ghrietn/git-github#pushing-changes-to-github)
+- [Git branches and merging](https://github.com/gdsc-ghrietn/git-github#git-branches-and-merging)
 - [Creating a pull request](https://github.com/gdsc-ghrietn/git-github#creating-a-pull-request)
 - [Making your first open source contribution [Activity]](https://github.com/gdsc-ghrietn/git-github#making-your-first-open-source-contribution-activity)
 
@@ -22,8 +22,8 @@ Speaker: [@sahilyeole](https://github.com/sahilyeole)
 ## What is version control system?
 ## Creating & cloning a repository
 ## Making changes
+## Pushing changes to github
 ## Git branches and merging
-## Pushing changes to github 
 ## Creating a pull request
 ## Making your first open source contribution [Activity]
 
