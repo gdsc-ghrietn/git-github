@@ -6,7 +6,7 @@ Speaker: [@sahilyeole](https://github.com/sahilyeole)
 Event page (register here): https://gdsc.community.dev/events/details/developer-student-clubs-g-h-raisoni-institute-of-engineering-and-technology-presents-hands-on-learning-of-git-and-github/
 ## Topics to be covered
 - [Setting up git and github](https://github.com/gdsc-ghrietn/git-github#setting-up-git-and-github)
-- [Basic terminal commands for navigation](https://github.com/gdsc-ghrietn/git-github#basic-terminal-commands)
+- [Basic terminal commands for navigation](https://github.com/gdsc-ghrietn/git-github#basic-terminal-commands-for-navigation)
 - [What is version control system?](https://github.com/gdsc-ghrietn/git-github#what-is-version-control-system)
 - [Creating & cloning a repository](https://github.com/gdsc-ghrietn/git-github#creating--cloning-a-repository)
 - [Making changes](https://github.com/gdsc-ghrietn/git-github#making-changes)
