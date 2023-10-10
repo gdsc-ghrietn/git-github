@@ -2,6 +2,8 @@
 Date: 14th October 2023
 
 Speaker: [@sahilyeole](https://github.com/sahilyeole)
+
+Event page (register here): https://gdsc.community.dev/events/details/developer-student-clubs-g-h-raisoni-institute-of-engineering-and-technology-presents-hands-on-learning-of-git-and-github/
 ## Topics to be covered
 - [Setting up git and github](https://github.com/gdsc-ghrietn/git-github#setting-up-git-and-github)
 - [Basic terminal commands](https://github.com/gdsc-ghrietn/git-github#basic-terminal-commands)
