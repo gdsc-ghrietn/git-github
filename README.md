@@ -25,10 +25,12 @@ Event page (register here): https://gdsc.community.dev/events/details/developer-
 - Downloading git: https://git-scm.com/downloads
 - Installing git (guide): https://phoenixnap.com/kb/how-to-install-git-windows
 
-  Note: Ignore `How to Launch Git in Windows` and later.
+  Note: In that guide, Ignore `How to Launch Git in Windows` and later.
 
 ---
 ## Basic terminal commands for navigation
+**NOTE:** For Windows users, use `Git Bash` for running the commands. It comes with the git installation. For this session, we will be using `Git Bash` for running the commands.
+- 
 1. `pwd` (Print Working Directory): Displays the current directory path.
 
    Example:
@@ -59,6 +61,16 @@ Event page (register here): https://gdsc.community.dev/events/details/developer-
     ```
 ---
 ## What is version control system?
+- Version control systems are software tools that help software teams manage changes to source code over time.
+- Version control systems help software teams work faster and smarter.
+![Alt text](<assets/Screenshot 2023-10-10 at 5.41.57 PM.png>)
+- The types of VCS are:
+    1. Local Version Control System
+    2. Centralized Version Control System
+    3. Distributed Version Control System
+- Git is the most well-known example of distributed version control systems.
+![Alt text](assets/image.png)
+
 ## Creating & cloning a repository
 ## Making changes
 ## Pushing changes to github
