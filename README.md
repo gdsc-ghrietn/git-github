@@ -57,7 +57,7 @@ Event page (register here): https://gdsc.community.dev/events/details/developer-
    $ ls
     file1.txt file2.txt directory1 directory2
     ```
-
+---
 ## What is version control system?
 ## Creating & cloning a repository
 ## Making changes
