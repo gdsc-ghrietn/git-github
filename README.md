@@ -25,7 +25,8 @@ Event page (register here): https://gdsc.community.dev/events/details/developer-
 - Downloading git: https://git-scm.com/downloads
 - Installing git (guide): https://phoenixnap.com/kb/how-to-install-git-windows
 
-  Note: In that guide, Ignore `How to Launch Git in Windows` and later.
+  Note: In that guide, ignore `How to Launch Git in Windows` and later.
+- Make sure `git -v` command works in your terminal. If it doesn't, there might be some problem with the installation or in setting up the path. Try reinstalling git and make sure to follow the guide properly.
 
 ---
 ## Basic terminal commands for navigation
@@ -70,8 +71,26 @@ Event page (register here): https://gdsc.community.dev/events/details/developer-
     3. Distributed Version Control System
 - Git is the most well-known example of distributed version control systems.
 ![Alt text](assets/image.png)
+---
 
 ## Creating & cloning a repository
+### Creating a repository
+1. Open your github profile and go to `Repositories` tab.
+2. Click on `New` button.
+![Alt text](<assets/Screenshot 2023-10-10 at 5.47.21 PM.png>)
+3. Give a name to your repositor.
+4. Make sure to check `Add a README file` option.
+5. Click on `Create repository` button.
+![Alt text](<assets/Screenshot 2023-10-10 at 5.51.09 PM.png>)
+
+### Cloning a repository
+1. After creating a repository you will be redirected to the repository page. Or else you can access it from Repositories tab in your profile.
+2. Click on `Code` button.
+3. Copy the https link of your repository.
+![Alt text](<assets/Screenshot 2023-10-10 at 5.56.09 PM.png>)
+---
+
+### Cloning a repository
 ## Making changes
 ## Pushing changes to github
 ## Git branches and merging
