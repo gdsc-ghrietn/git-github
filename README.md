@@ -21,6 +21,13 @@ Event page (register here): https://gdsc.community.dev/events/details/developer-
 
 ---
 ## Setting up git and github
+- Creating github account: https://github.com/signup
+- Downloading git: https://git-scm.com/downloads
+- Installing git (guide): https://phoenixnap.com/kb/how-to-install-git-windows
+
+  Note: Ignore `How to Launch Git in Windows` and later.
+
+---
 ## Basic terminal commands
 ## What is version control system?
 ## Creating & cloning a repository
