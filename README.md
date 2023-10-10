@@ -36,6 +36,28 @@ Event page (register here): https://gdsc.community.dev/events/details/developer-
    $ pwd
    /home/user/documents
     ```
+2. `cd` (Change Directory):
+    - To move forward (into a subdirectory):
+      ```bash
+      $ cd directory_name
+      ```
+    - To move backward (up one directory):
+      ```bash
+      $ cd ..
+      ```
+    - To move up two directories:
+      ```bash
+      $ cd ../..
+      ```
+
+3. `ls` (List): Lists the files and directories in the current directory.
+
+    Example:
+    ```bash
+   $ ls
+    file1.txt file2.txt directory1 directory2
+    ```
+
 ## What is version control system?
 ## Creating & cloning a repository
 ## Making changes
