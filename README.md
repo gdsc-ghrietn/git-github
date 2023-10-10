@@ -1,4 +1,4 @@
-# Hands on learning of git and github
+# Hands on Learning of Git and Github
 Date: 14th October 2023
 
 Speaker: [@sahilyeole](https://github.com/sahilyeole)
