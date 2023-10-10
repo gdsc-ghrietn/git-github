@@ -15,7 +15,7 @@ Event page (register here): https://gdsc.community.dev/events/details/developer-
 - [Creating a pull request](https://github.com/gdsc-ghrietn/git-github#creating-a-pull-request)
 - [Making your first open source contribution [Activity]](https://github.com/gdsc-ghrietn/git-github#making-your-first-open-source-contribution-activity)
 
-   #### BONUS
+#### BONUS
 - [Resolving merge conflicts](https://github.com/gdsc-ghrietn/git-github#resolving-merge-conflicts)
 - [VS code integration with git](https://github.com/gdsc-ghrietn/git-github#vs-code-integration-with-git)
 
