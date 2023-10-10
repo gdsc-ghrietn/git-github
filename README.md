@@ -19,6 +19,7 @@ Event page (register here): https://gdsc.community.dev/events/details/developer-
 - [Resolving merge conflicts](https://github.com/gdsc-ghrietn/git-github#resolving-merge-conflicts)
 - [VS code integration with git](https://github.com/gdsc-ghrietn/git-github#vs-code-integration-with-git)
 
+---
 ## Setting up git and github
 ## Basic terminal commands
 ## What is version control system?
