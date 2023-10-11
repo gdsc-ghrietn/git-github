@@ -114,7 +114,49 @@ Congrats you have successfully cloned your first repository.
 ---
 
 ## Making changes
+1. Open the README.md file in your favorite text editor. (Ex: VS code or notepad)
+I'm vim user so I will use vim to open the file.
+
+```bash
+nvim README.md
+```
+2. Add some text to the file and save it.
+```
+Hello world
+```
+![Alt text](<assets/Screenshot 2023-10-11 at 2.55.45 PM.png>)
+
+3. Now go to your terminal and type `git status` command.
+```bash
+$ git status
+```
+![Alt text](<assets/Screenshot 2023-10-11 at 2.59.31 PM.png>)
+`git status` gives the current status of the repository. It shows that README.md file is modified. And it says changes not staged for commit. It means that the changes are not yet added to the staging area.
+
+Staging area is a place where we add the files which are ready to be committed. We can add multiple files to the staging area and commit them all at once.
+
+---
 ## Pushing changes to github
+1. Now we will add our modified file to the staging area using `git add` command.
+```bash
+$ git add README.md
+```
+Or if you want to stage all the files in the current directory of the repository then you can use `git add .` command.
+```bash
+$ git add .
+```
+**Note:**
+
+  `.` represents the current directory.
+
+  You can also restore the changes you have made to the file using `git restore` command.
+  (You can ignore this command for now if you dont want to restore the changes.)
+  ```bash
+  $ git restore README.md
+  ```
+  
+---
+
 ## Git branches and merging
 ## Creating a pull request
 ## Making your first open source contribution [Activity]
