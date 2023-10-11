@@ -154,7 +154,60 @@ $ git add .
   ```bash
   $ git restore README.md
   ```
-  
+2. Enter `git status` command again to see the status of the repository.
+```bash
+$ git status
+```
+![Alt text](<assets/Screenshot 2023-10-11 at 3.16.57 PM.png>)
+ Now it says "Changes to be committed". It means that the changes are added to the staging area and are ready to be committed.
+
+ At this point you can verify your changes by using `git diff` command.
+ ```bash
+  $ git diff
+  ```
+
+3. Now we will commit the changes using `git commit` command.
+
+Commit is like a snapshot of the changes you have made. If we want to push the changes to github then we have to commit them first.
+
+```bash
+$ git commit -m "Added hello world"
+```
+`-m` flag is used to add a commit message. It is a good practice to add a meaningful commit message to every commit you make. It helps you to keep track of the changes you have made.
+
+4. Try `git status` command again.
+```bash
+$ git status
+```
+![Alt text](<assets/Screenshot 2023-10-11 at 3.27.23 PM.png>)
+
+Now it doesn't show any changes. It means that the changes are committed successfully.
+We can verify this by using `git log` command.
+```bash
+$ git log
+```
+git log shows the history of commits made to the repository. It shows the commit hash, author, date and commit message.
+![Alt text](<assets/Screenshot 2023-10-11 at 3.28.32 PM.png>)
+### Note: Press `q` to exit from the log.
+5. We aren't done yet because these commits are currently stored only in our local machine. We have to push these commits to github so that everyone can see them.
+
+We will use `git push` command to push the commits to github.
+```bash
+$ git push origin main
+```
+here origin is referring to the remote repository and main is the branch name.
+
+Or you can also use 
+```bash
+$ git push origin head
+```
+This will push to the current branch (head) you are on to the remote repository. In this case our head branch is main.
+
+You can verify `head` branch here or even using  `git status` command.
+![Alt text](<assets/Screenshot 2023-10-11 at 3.33.47 PM.png>)
+6. After 5th step your commits are pushed to github. You can verify this by going to your repository page on github.
+![Alt text](<assets/Screenshot 2023-10-11 at 3.36.58 PM.png>)
+
 ---
 
 ## Git branches and merging
