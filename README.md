@@ -205,6 +205,7 @@ This will push to the current branch (head) you are on to the remote repository.
 
 You can verify `head` branch here or even using  `git status` command.
 ![Alt text](<assets/Screenshot 2023-10-11 at 3.33.47 PM.png>)
+
 6. After 5th step your commits are pushed to github. You can verify this by going to your repository page on github.
 ![Alt text](<assets/Screenshot 2023-10-11 at 3.36.58 PM.png>)
 
