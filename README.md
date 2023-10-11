@@ -88,9 +88,31 @@ Event page (register here): https://gdsc.community.dev/events/details/developer-
 2. Click on `Code` button.
 3. Copy the https link of your repository.
 ![Alt text](<assets/Screenshot 2023-10-10 at 5.56.09 PM.png>)
+4. Open your bash terminal and `cd` into your desired location (for me Developer folder).
+```bash
+$ cd Developer
+```
+5. Open your bash terminal and enter `git clone [your repo link]`
+```bash
+git clone https://github.com/sahilyeole/Test.git  
+```
+6. Now in your file manager you can see a new folder created with the name of your repository. You can also see this using `ls` command.
+![Alt text](<assets/Screenshot 2023-10-11 at 2.09.24 PM.png>)
+7. `cd` into that folder in terminal.
+```bash
+$ cd Test
+```
+8. `ls` to see the files in that folder.
+```bash
+$ ls
+README.md
+```
+It will show only README.md file as we have not added any other file yet.
+
+Congrats you have successfully cloned your first repository.
+
 ---
 
-### Cloning a repository
 ## Making changes
 ## Pushing changes to github
 ## Git branches and merging
