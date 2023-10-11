@@ -97,7 +97,9 @@ $ cd Developer
 git clone https://github.com/sahilyeole/Test.git  
 ```
 6. Now in your file manager you can see a new folder created with the name of your repository. You can also see this using `ls` command.
+
 ![Alt text](<assets/Screenshot 2023-10-11 at 2.09.24 PM.png>)
+
 7. `cd` into that folder in terminal.
 ```bash
 $ cd Test
