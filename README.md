@@ -213,6 +213,10 @@ You can verify `head` branch here or even using  `git status` command.
 
 ---
 
+### Summary of what we did so far
+
+![Alt text](<assets/Screenshot 2023-10-11 at 4.00.34 PM.png>)
+
 ## Git branches and merging
 ## Creating a pull request
 ## Making your first open source contribution [Activity]
