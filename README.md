@@ -218,9 +218,127 @@ You can verify `head` branch here or even using  `git status` command.
 ![Alt text](<assets/Screenshot 2023-10-11 at 4.00.34 PM.png>)
 
 ## Git branches and merging
-## Creating a pull request
-## Making your first open source contribution [Activity]
+1. `git branch` to list all the available branches.
+```bash
+$ git branch
+```
+Currently there's only one branch named  `main`.
+Press q to get out. 
 
+2. `git branch [branch name]` to create a new branch.
+```bash
+$ git branch new_branch
+```
+now run `git branch`
+
+![Alt text](<assets/Screenshot 2023-10-13 at 1.27.11 PM.png>)
+
+now our new branch `new_branch` has been added.
+
+Notice the `*` it represents the head of the branch, meaning what branch our current local repository is pointing to.
+Currently it's on `main` branch lets switch it to `new_branch`.
+3. `git switch [branch name]` to switch branches
+```bash
+$ git switch new_branch
+```
+Now our head is at `new_branch` meaning our repo is now pointing to `new_branch`
+![Alt text](<assets/Screenshot 2023-10-13 at 1.30.54 PM.png>) 
+Also, notice prompt in our terminal is showing `new_branch`.
+![Alt text](<assets/Screenshot 2023-10-13 at 1.40.20 PM.png>)
+Also, `git status` will show this branch.
+4. Now, we will do changes in this branch. The changes done in this branch are separate from other branches.
+I have edited README.md here.
+![Alt text](<assets/Screenshot 2023-10-13 at 1.41.41 PM.png>)
+And now following above instructions lets add, commit and push the changes to github.
+```bash
+$ git add .
+$ git commit -m "Update README"
+$ git push origin head
+```
+Alternative for push command: `git push origin new_branch`.
+
+Now our new branch has been pushed to github along with new changes.
+You can verify it here.
+Switch branch on github.
+![Alt text](<assets/Screenshot 2023-10-13 at 1.50.02 PM.png>)
+![Alt text](<assets/Screenshot 2023-10-13 at 1.51.20 PM.png>)
+This new branch is having the changes we have made in this branch.
+
+### Merging
+Now lets merge our `new_branch` into `main` branch.
+If branches are not protected, you can use `git merge` command to merge branches.
+But first we will have to switch to `main` branch.
+```bash
+$ git switch main
+$ git merge new_branch
+```
+Now our `main` branch is having changes from `new_branch`.
+![Alt text](<assets/Screenshot 2023-10-13 at 1.55.55 PM.png>)
+(Ignore bat command in this image, it is just to print the content of README.md file.)
+
+- These new changes in `main` are only local, lets push to github.
+```bash
+$ git push origin main
+```
+Go on github to verify, switch to `main` branch and go to commits.
+![Alt text](<assets/Screenshot 2023-10-13 at 2.08.56 PM.png>)
+![Alt text](<assets/Screenshot 2023-10-13 at 2.10.56 PM.png>)
+Notice the commit we made in `new_branch` has appeared here. Meaning the changes made in `new_branch` are successfully merged in`main`.
+
+We can also manage branches on github by going to branches tab.
+![Alt text](<assets/Screenshot 2023-10-13 at 2.13.00 PM.png>)
+![Alt text](<assets/Screenshot 2023-10-13 at 2.13.21 PM.png>)
+Source here means which branch to copy. When we did it locally it automatically copied the branch we had head on.
+
+Just like changes made locally has to be pushed in order to sync Local -> Github.
+We need to sync Github -> Local because we now have made changes on Github which are not in our local repo.
+To do this we have to use `git pull` command.
+```bash
+$ git pull
+```
+It will sync the changes from github to local repo.
+![Alt text](<assets/Screenshot 2023-10-13 at 2.19.25 PM.png>)
+
+If the branches are protected then you will have to create a pull request to merge the branches. This is generally considered as a good and safe practice. Let's do that next.
+## Creating a pull request
+Here, I will quickly create a new branch and make some changes to it and push.
+```bash
+$ git branch new_branch2
+$ git switch new_branch2
+```
+- Make some changes to README.md file.
+![Alt text](<assets/Screenshot 2023-10-13 at 2.00.55 PM.png>)
+- add, commit and push to github.
+```bash
+$ git add .
+$ git commit -m "Update README in new_branch2"
+$ git push origin head
+```
+Switch to  `new_branch2` on github (Refresh page if you aren't seeing new branch).
+![Alt text](<assets/Screenshot 2023-10-13 at 2.02.54 PM.png>)
+![Alt text](<assets/Screenshot 2023-10-13 at 2.21.43 PM.png>)
+It says "1 commit ahead of main" and there's an option to Contribute, click there.
+![Alt text](<assets/Screenshot 2023-10-13 at 2.23.29 PM.png>)
+Click on "Open pull request".
+(You can Compare branches without creating PR)
+Now give a meaningful name to our PR.
+You can also write meaningful comment to describe the changes you have made.
+![Alt text](<assets/Screenshot 2023-10-13 at 2.26.54 PM.png>)
+Before clicking "Create pull request" let's verify the changes we are going to make in the `main` branch.
+So scroll down on the same page and you will see the differece between the branches.
+![Alt text](<assets/Screenshot 2023-10-13 at 2.28.27 PM.png>)
+Click on "Create pull request" and our PR will be made. You can click on Pull requests tab on your repo to check it.
+Currently it is open, meaning it is not merged or closed yet.
+![Alt text](<assets/Screenshot 2023-10-13 at 2.30.09 PM.png>)
+Also, it says to no conflicts with base branch. We will see what it means soon.
+Now click on "Merge pull request" and then "Confirm merge".
+![Alt text](<assets/Screenshot 2023-10-13 at 2.37.19 PM.png>)
+Now our PR is merged.
+We can verify our `main` branch now.
+The `new_branch2` has been successfully merged into `main`.
+![Alt text](<assets/Screenshot 2023-10-13 at 2.38.32 PM-1.png>)
+
+### Making your first open source contribution [Activity]
 #### BONUS
 ## Resolving merge conflicts
 ## VS code integration with git
