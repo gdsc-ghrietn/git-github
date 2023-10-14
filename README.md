@@ -218,6 +218,7 @@ You can verify `head` branch here or even using  `git status` command.
 ![Alt text](<assets/Screenshot 2023-10-11 at 4.00.34 PM.png>)
 
 ## Git branches and merging
+Git branches are parallel versions of a codebase that allow developers to work on different features or fixes without impacting the main code.
 1. `git branch` to list all the available branches.
 ```bash
 $ git branch
@@ -338,8 +339,20 @@ We can verify our `main` branch now.
 The `new_branch2` has been successfully merged into `main`.
 ![Alt text](<assets/Screenshot 2023-10-13 at 2.38.32 PM-1.png>)
 
-### Making your first open source contribution [Activity]
-#### BONUS
-## Resolving merge conflicts
-## VS code integration with git
+## Making your first open source contribution [Activity]
+1. Create a fork of https://github.com/gdsc-ghrietn
 
+A GitHub fork is a copy of a repository that allows you to freely experiment with changes without affecting the original project.
+
+2. Clone the forked repository.
+3. Create a new branch.
+4. Make changes: In Contribute folder add a file with your name with .txt extension. Include your name and other details in the file.
+5. Add, commit, push changes to forked repo.
+6. Create a pull request.
+
+#### BONUS
+We will be showcased during the event briefly.
+## Resolving merge conflicts
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line
+## VS code integration with git
+https://code.visualstudio.com/docs/sourcecontrol/overview
