@@ -28,6 +28,11 @@ Event page (register here): https://gdsc.community.dev/events/details/developer-
   Note: In that guide, ignore `How to Launch Git in Windows` and later.
 - Make sure `git -v` command works in your terminal. If it doesn't, there might be some problem with the installation or in setting up the path. Try reinstalling git and make sure to follow the guide properly.
 
+- Install github cli for login. For authenticating our git cli.
+  https://www.techielass.com/install-github-cli-on-windows/
+  (Install Chocolatey from here if needed: https://chocolatey.org/install)
+  Executing `gh auth login` command.
+  
 ---
 ## Basic terminal commands for navigation
 **NOTE:** For Windows users, use `Git Bash` for running the commands. It comes with the git installation. For this session, we will be using `Git Bash` for running the commands.
