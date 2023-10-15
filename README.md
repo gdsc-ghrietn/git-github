@@ -32,6 +32,7 @@ Event page (register here): https://gdsc.community.dev/events/details/developer-
   https://www.techielass.com/install-github-cli-on-windows/
   (Install Chocolatey from here if needed: https://chocolatey.org/install)
   Executing `gh auth login` command.
+  If it is not working, please try `winpty gh auth login`.
   
 ---
 ## Basic terminal commands for navigation
