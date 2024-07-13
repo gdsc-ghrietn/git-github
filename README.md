@@ -1,7 +1,7 @@
 # Hands on Learning of Git and Github
 Date: 14th October 2023
 
-Speaker: [@sahilyeole](https://github.com/sahilyeole)
+Speaker: [@sahilyeole](https://github.com/beelchester)
 
 Event page (register here): https://gdsc.community.dev/events/details/developer-student-clubs-g-h-raisoni-institute-of-engineering-and-technology-presents-hands-on-learning-of-git-and-github/
 ## Topics to be covered
